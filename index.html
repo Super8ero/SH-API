@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans|Poppins:400,600" rel="stylesheet">	
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Super Hero API</title>
+	</head>
+	<body>
+
+		<div id="header_shadow"></div>
+		<div class="navbar navbar-expand-lg" id="header">
+			<div class="container">
+				<div class="col-10 col-lg-6">
+					<h1>Super Hero API</h1>
+				</div>
+				<div class="navbar-toggler" data-toggle="collapse" data-target="#header_collapse">
+					<div class="burger">Menu</div>
+				</div>
+				<div id="header_collapse" class="collapse navbar-collapse col-lg-6 justify-content-end"> 
+					<nav class="text-center">
+
+						<div class="container">
+						  <div class="row searchFilter" >
+						     <div class="col-sm-12" >
+						      <div class="input-group" >
+						       <input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" >
+						       <div class="input-group-btn" >
+						        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="label-icon" >Category</span> <span class="caret" >&nbsp;</span></button>
+						        <div class="dropdown-menu dropdown-menu-right" >
+						           <ul class="category_filters" >
+						            <li >
+						             <input class="cat_type category-input" data-label="Anverse" id="unverse" value="" name="radios" type="radio" ><label for="unverse" >Universe</label>
+						            </li>
+						            <li >
+						             <input type="radio" name="radios" id="Gender" value="gender" ><label class="category-label" for="gender" >Gender</label>
+						            </li>
+						            <li >
+						             <input type="radio" name="radios" id="Race" value="gender" ><label class="category-label" for="race" >Race</label>
+						            </li>					            
+						           </ul>
+						        </div>
+						        <button id="searchBtn" type="button" class="btn btn-secondary btn-search" ><span class="glyphicon glyphicon-search" >&nbsp;</span> <span class="label-icon" >Search</span></button>
+						       </div>
+						      </div>
+						     </div>
+						  </div>
+						</div>
+
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row" id="destaque">
+				<div class="col col-sm-12 col-12">
+					<h2 class="col-sm-12 mt-5 font-weight-bold text-center">Check Out About Your Favourite Characters</h2>
+					<p class="col col-sm-12 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row align-items-center feature" id="characters">
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+<!-- 					<div class="zoom">
+						<img src="img/batman.jpg" class="img-responsive">
+						<div class="text-item">
+							<h5>Batman</h5>
+						</div>
+					</div> -->
+					 <div>
+					 	<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+					 </div>						
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+														
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>							
+			</div>
+
+			<div class="row align-items-center feature" id="characters2">
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+														
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>							
+			</div>	
+			<div class="row align-items-center feature" id="characters3">
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+														
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>							
+			</div>
+			<div class="row align-items-center feature" id="characters4">
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>
+														
+				<div class=" col col-sm-3 col-md-3 col-lg-2 offset-lg-1 text-center">
+					<div class="card">
+						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
+						 <div class="card-body">
+						 	<h3 class="card-title">Batman</h3>
+						    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#batman">Stats</a>
+						  </div>
+					</div>
+				</div>
+				<div class="modal fade" id="batman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								1
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+									</div>
+									<div class="col" id="stats">
+										<h4>Name</h4>
+										<h4>Slug</h4>
+										<h4>Power Stats</h4>
+										<ul>
+											<li>Intelligence</li>
+											<li>Strength</li>
+											<li>Speed</li>
+											<li>Durability</li>
+											<li>Power</li>
+											<li>Combat</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col">
+										<h4>Appearance</h4>
+										<ul>
+											<li>Gender</li>
+											<li>Race</li>
+											<li>Height</li>
+											<li>Weight</li>
+											<li>Eye Color</li>
+											<li>Hair Color</li>
+										</ul>
+									</div>
+									<div class="col" id="biography">
+										<h4>Biography</h4>
+										<ul>
+											<li>Full Name</li>
+											<li>Alter Egos</li>
+											<li>Aliases</li>
+											<li>Place of Birth</li>
+											<li>Fisrt Appearance</li>
+											<li>Publisher</li>
+											<li>Alignment</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h4>Work</h4>
+										<ul>
+											<li>Ocupation</li>
+											<li>Base</li>
+										</ul>
+
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h4>Connections</h4>
+										<ul>
+											<li>Group Affiliation</li>
+											<li>Relatives</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								1-3
+							</div>
+						</div>
+					</div>
+				</div>							
+			</div>																		
+		</div>
+
+		</div>
+		<div id="footer">
+			<div class="container">
+				<p>Projeto Acadêmico</p>
+				<p>Processo Seletivo Dev-Front Stone Age</p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="js/scrollreveal.min.js"></script>		
+		<script type="text/javascript" src="js/main.js"></script>		
+	</body>
+</html>
+
+
