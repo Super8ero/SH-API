@@ -17,9 +17,9 @@ var opcoesSR = {
         bottom: 300
     }
 }
-ScrollReveal().reveal('#characters2', opcoesSR)
-ScrollReveal().reveal('#characters3', opcoesSR)
-ScrollReveal().reveal('#characters4', opcoesSR)
+ScrollReveal().reveal('#charactersb', opcoesSR)
+ScrollReveal().reveal('#charactersc', opcoesSR)
+ScrollReveal().reveal('#charactersd', opcoesSR)
 
 
 
@@ -39,3 +39,6 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+

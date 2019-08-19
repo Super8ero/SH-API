@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8"/>
@@ -15,7 +14,7 @@
 		<div id="header_shadow"></div>
 		<div class="navbar navbar-expand-lg" id="header">
 			<div class="container">
-				<div class="col-10 col-lg-6 text-right">
+				<div class="col-10 col-lg-6">
 					<h1>Super Hero API</h1>
 				</div>
 				<div class="navbar-toggler" data-toggle="collapse" data-target="#header_collapse">
@@ -23,1636 +22,2548 @@
 				</div>
 				<div id="header_collapse" class="collapse navbar-collapse col-lg-6 justify-content-end"> 
 					<nav class="text-center">
-
-<!-- 						<div class="container">
-						  <div class="row searchFilter" >
-						     <div class="col-sm-12" >
-						      <div class="input-group" >
-						       <input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown" >
-						       <div class="input-group-btn" >
-						        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="label-icon" >Category</span> <span class="caret" >&nbsp;</span></button>
-						        <div class="dropdown-menu dropdown-menu-right" >
-						           <ul class="category_filters" >
-						            <li >
-						             <input class="cat_type category-input" data-label="Anverse" id="unverse" value="" name="radios" type="radio" ><label for="unverse" >Universe</label>
-						            </li>
-						            <li >
-						             <input type="radio" name="radios" id="Gender" value="gender" ><label class="category-label" for="gender" >Gender</label>
-						            </li>
-						            <li >
-						             <input type="radio" name="radios" id="Race" value="gender" ><label class="category-label" for="race" >Race</label>
-						            </li>					            
-						           </ul>
-						        </div>
-						        <button id="searchBtn" type="button" class="btn btn-secondary btn-search" ><span class="glyphicon glyphicon-search" >&nbsp;</span> <span class="label-icon" >Search</span></button>
-						       </div>
-						      </div>
-						     </div>
-						  </div>
-						</div> -->
-
+					<a href="#" class="d-block d-lg-inline-block mx-2">Início</a>
+					<a href="#" src="sobre.html" class="d-block d-lg-inline-block mx-2">Sobre</a>
 					</nav>
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
-			<div class="row" id="destaque">
-				<div class="col col-sm-12 col-12">
-					<h2 class="col-sm-12 mt-5 font-weight-bold text-center">Check Out About Your Favourite Characters</h2>
+			<div class="row justify-items-center" id="destaque">
+				<div class="col col-12">
+					<h3 class="col-sm-12 mt-5 font-weight-bold text-center">Conheça melhor os personagens dos mais diversos universos</h3>
 					<p class="col col-sm-12 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<input class="form-control" type="text" placeholder="Procure seu herói pelo nome" aria-label="Search">
 				</div>
 			</div>
 		</div>
 
+		<!-- A -->
+
+		<!-- A-BOMB -->
+
 		<div class="container">			  			  			  		
 			<div class="row align-items-center feature" id="characters">
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman1</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman1">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="Card image A-Bomb">
+						<div class="card-body">
+						 	<p class="card-title">A-Bomb</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#a-bomb">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman1">
+				<div class="modal fade" id="a-bomb">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								1
+								<h3>A-Bomb</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="A-Bomb" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>1</h6>
+										<p>A-Bomb</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABE SAPIEN -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman2</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman2">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Card image Abe Sapien">
+						<div class="card-body">
+						 	<p class="card-title">Abe Sapien</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abesapien">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman2">
+				<div class="modal fade" id="abesapien">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								2
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Abe Sapien" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>2</h6>
+										<p>Abe Sapien</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>88</p>
+										<h6>Strength</h6>
+										<p>28</p>
+										<h6>Speed</h6>
+										<p>35</p>
+										<h6>Durability</p>
+										<p>65</p>
+										<h6>Power</h6>
+										<p>100</p>
+										<h6>Combat</h6>
+										<p>85</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Abraham Sapien</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Langdon Everett Caul, Abraham Sapien, Langdon Caul</p>
+										<h6>Place Of Birth</h6>
+										<p> - </p>
+										<h6>First Appearance</h6>
+										<p>Hellboy: Seed of Destruction (1993)</p>
+										<h6>Publisher</h6>
+										<p>Dark Horse Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Icthyo Sapien</p>
+										<h6>Height</h6>
+										<p>6'3 | 191 cm</p>
+										<h6>Weight</h6>
+										<p>145 lb | 65 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Paranormal Investigator</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Bureau for Paranormal Research and Defense</p>
+										<h6>Relatives</h6>
+										<p>Edith Howard (wife, deceased)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+				</div>	
+				
+		<!-- ABIN SUR -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman3</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman3">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Card image Abin Sur">
+						<div class="card-body">
+						 	<p class="card-title">Abin Sur</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abinsur">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman3">
+				<div class="modal fade" id="abinsur">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								3
+								<h3>Abin Sur</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Abin Sur" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>3</h6>
+										<p>Abin Sur</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>50</p>
+										<h6>Strength</h6>
+										<p>90</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>64</p>
+										<h6>Power</h6>
+										<p>99</p>
+										<h6>Combat</h6>
+										<p>65</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p> - </p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Lagzia</p>
+										<h6>Place Of Birth</h6>
+										<p>Ungara</p>
+										<h6>First Appearance</h6>
+										<p>Showcase #22 (October, 1959)</p>
+										<h6>Publisher</h6>
+										<p>DC Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Ungaran</p>
+										<h6>Height</h6>
+										<p>6'1 | 185 cm</p>
+										<h6>Weight</h6>
+										<p>200 lb | 90 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Green Lantern, former history professor</p>
+										<h6>Base</h6>
+										<p>Oa</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Green Lantern Corps, Black Lantern Corps</p>
+										<h6>Relatives</h6>
+										<p>Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABOMINATION -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman4</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman4">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Card image Abomination">
+						<div class="card-body">
+						 	<p class="card-title">Abomination</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abomination">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman4">
+				<div class="modal fade" id="abomination">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								4
+								<h3>Abomination</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Abomination" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>4</h6>
+										<p>Abomination</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>63</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>90</p>
+										<h6>Power</h6>
+										<p>62</p>
+										<h6>Combat</h6>
+										<p>95</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Emil Blonsky</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Agent R-7, Ravager of Worlds</p>
+										<h6>Place Of Birth</h6>
+										<p>Zagreb, Yugoslavia</p>
+										<h6>First Appearance</h6>
+										<p>Tales to Astonish #90</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human / Radiation</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Green</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Ex-Spy</p>
+										<h6>Base</h6>
+										<p>Mobile</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten</p>
+										<h6>Relatives</h6>
+										<p>Nadia Dornova Blonsky (wife, separated)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+		<!-- ABRAXAS -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman5</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman5">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Card image Abraxas">
+						<div class="card-body">
+						 	<p class="card-title">Abraxas</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abraxas">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman5">
+				<div class="modal fade" id="abraxas">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								5
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Abraxas" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>5</h6>
+										<p>Abraxas</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman6</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman6">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Card image Absorbing Man">
+						<div class="card-body">
+						 	<p class="card-title">Absorbing Man</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#absorbingman">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman6">
+				<div class="modal fade" id="absorbingman">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								6
+								<h3>Absorbing Man</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Absorbing Man" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>6</h6>
+										<p>Absorbing Man</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>25</p>
+										<h6>Durability</p>
+										<p>100</p>
+										<h6>Power</h6>
+										<p>98</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Carl Creel</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Greithoth, Crusher, Creel, Rocky Davis, Dynamite Davis, Lightningbolt, Prisoner #24957</p>
+										<h6>Place Of Birth</h6>
+										<p>New York City, New York</p>
+										<h6>First Appearance</h6>
+										<p>Daredevil #1 (April, 1964) (As Rocky Davis)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'4 | 193 cm</p>
+										<h6>Weight</h6>
+										<p>270 lb | 122 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Professional criminal; former professional boxer</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Masters of Evil, Lethal Legion; formerly Worthy, Frightful Four: former agent of Loki and They Who Wield Power</p>
+										<h6>Relatives</h6>
+										<p>Mary MacPherran (Titania) (wife); Jerry Sledge (son); Rockwell "Rocky" Davis (Hi-Llite) (cousin)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>												
 			</div>
 
-			<div class="row align-items-center feature" id="characters2">
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+			<div class="row align-items-center feature" id="charactersb">
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman1</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman1">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="Card image A-Bomb">
+						<div class="card-body">
+						 	<p class="card-title">A-Bomb</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#a-bomb">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman1">
+				<div class="modal fade" id="a-bomb">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								1
+								<h3>A-Bomb</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="A-Bomb" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>1</h6>
+										<p>A-Bomb</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABE SAPIEN -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman2</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman2">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Card image Abe Sapien">
+						<div class="card-body">
+						 	<p class="card-title">Abe Sapien</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abesapien">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman2">
+				<div class="modal fade" id="abesapien">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								2
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Abe Sapien" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>2</h6>
+										<p>Abe Sapien</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>88</p>
+										<h6>Strength</h6>
+										<p>28</p>
+										<h6>Speed</h6>
+										<p>35</p>
+										<h6>Durability</p>
+										<p>65</p>
+										<h6>Power</h6>
+										<p>100</p>
+										<h6>Combat</h6>
+										<p>85</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Abraham Sapien</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Langdon Everett Caul, Abraham Sapien, Langdon Caul</p>
+										<h6>Place Of Birth</h6>
+										<p> - </p>
+										<h6>First Appearance</h6>
+										<p>Hellboy: Seed of Destruction (1993)</p>
+										<h6>Publisher</h6>
+										<p>Dark Horse Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Icthyo Sapien</p>
+										<h6>Height</h6>
+										<p>6'3 | 191 cm</p>
+										<h6>Weight</h6>
+										<p>145 lb | 65 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Paranormal Investigator</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Bureau for Paranormal Research and Defense</p>
+										<h6>Relatives</h6>
+										<p>Edith Howard (wife, deceased)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+				</div>	
+				
+		<!-- ABIN SUR -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman3</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman3">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Card image Abin Sur">
+						<div class="card-body">
+						 	<p class="card-title">Abin Sur</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abinsur">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman3">
+				<div class="modal fade" id="abinsur">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								3
+								<h3>Abin Sur</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Abin Sur" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>3</h6>
+										<p>Abin Sur</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>50</p>
+										<h6>Strength</h6>
+										<p>90</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>64</p>
+										<h6>Power</h6>
+										<p>99</p>
+										<h6>Combat</h6>
+										<p>65</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p> - </p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Lagzia</p>
+										<h6>Place Of Birth</h6>
+										<p>Ungara</p>
+										<h6>First Appearance</h6>
+										<p>Showcase #22 (October, 1959)</p>
+										<h6>Publisher</h6>
+										<p>DC Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Ungaran</p>
+										<h6>Height</h6>
+										<p>6'1 | 185 cm</p>
+										<h6>Weight</h6>
+										<p>200 lb | 90 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Green Lantern, former history professor</p>
+										<h6>Base</h6>
+										<p>Oa</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Green Lantern Corps, Black Lantern Corps</p>
+										<h6>Relatives</h6>
+										<p>Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABOMINATION -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman4</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman4">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Card image Abomination">
+						<div class="card-body">
+						 	<p class="card-title">Abomination</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abomination">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman4">
+				<div class="modal fade" id="abomination">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								4
+								<h3>Abomination</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Abomination" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>4</h6>
+										<p>Abomination</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>63</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>90</p>
+										<h6>Power</h6>
+										<p>62</p>
+										<h6>Combat</h6>
+										<p>95</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Emil Blonsky</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Agent R-7, Ravager of Worlds</p>
+										<h6>Place Of Birth</h6>
+										<p>Zagreb, Yugoslavia</p>
+										<h6>First Appearance</h6>
+										<p>Tales to Astonish #90</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human / Radiation</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Green</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Ex-Spy</p>
+										<h6>Base</h6>
+										<p>Mobile</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten</p>
+										<h6>Relatives</h6>
+										<p>Nadia Dornova Blonsky (wife, separated)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+		<!-- ABRAXAS -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman5</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman5">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Card image Abraxas">
+						<div class="card-body">
+						 	<p class="card-title">Abraxas</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abraxas">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman5">
+				<div class="modal fade" id="abraxas">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								5
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Abraxas" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>5</h6>
+										<p>Abraxas</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman6</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman6">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Card image Absorbing Man">
+						<div class="card-body">
+						 	<p class="card-title">Absorbing Man</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#absorbingman">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman6">
+				<div class="modal fade" id="absorbingman">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								6
+								<h3>Absorbing Man</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Absorbing Man" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>6</h6>
+										<p>Absorbing Man</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>25</p>
+										<h6>Durability</p>
+										<p>100</p>
+										<h6>Power</h6>
+										<p>98</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Carl Creel</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Greithoth, Crusher, Creel, Rocky Davis, Dynamite Davis, Lightningbolt, Prisoner #24957</p>
+										<h6>Place Of Birth</h6>
+										<p>New York City, New York</p>
+										<h6>First Appearance</h6>
+										<p>Daredevil #1 (April, 1964) (As Rocky Davis)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'4 | 193 cm</p>
+										<h6>Weight</h6>
+										<p>270 lb | 122 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Professional criminal; former professional boxer</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Masters of Evil, Lethal Legion; formerly Worthy, Frightful Four: former agent of Loki and They Who Wield Power</p>
+										<h6>Relatives</h6>
+										<p>Mary MacPherran (Titania) (wife); Jerry Sledge (son); Rockwell "Rocky" Davis (Hi-Llite) (cousin)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>												
 			</div>
 
-			<div class="row align-items-center feature" id="characters3">
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+			<div class="row align-items-center feature" id="charactersc">
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman1</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman1">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="Card image A-Bomb">
+						<div class="card-body">
+						 	<p class="card-title">A-Bomb</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#a-bomb">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman1">
+				<div class="modal fade" id="a-bomb">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								1
+								<h3>A-Bomb</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="A-Bomb" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>1</h6>
+										<p>A-Bomb</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABE SAPIEN -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman2</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman2">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Card image Abe Sapien">
+						<div class="card-body">
+						 	<p class="card-title">Abe Sapien</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abesapien">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman2">
+				<div class="modal fade" id="abesapien">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								2
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Abe Sapien" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>2</h6>
+										<p>Abe Sapien</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>88</p>
+										<h6>Strength</h6>
+										<p>28</p>
+										<h6>Speed</h6>
+										<p>35</p>
+										<h6>Durability</p>
+										<p>65</p>
+										<h6>Power</h6>
+										<p>100</p>
+										<h6>Combat</h6>
+										<p>85</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Abraham Sapien</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Langdon Everett Caul, Abraham Sapien, Langdon Caul</p>
+										<h6>Place Of Birth</h6>
+										<p> - </p>
+										<h6>First Appearance</h6>
+										<p>Hellboy: Seed of Destruction (1993)</p>
+										<h6>Publisher</h6>
+										<p>Dark Horse Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Icthyo Sapien</p>
+										<h6>Height</h6>
+										<p>6'3 | 191 cm</p>
+										<h6>Weight</h6>
+										<p>145 lb | 65 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Paranormal Investigator</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Bureau for Paranormal Research and Defense</p>
+										<h6>Relatives</h6>
+										<p>Edith Howard (wife, deceased)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+				</div>	
+				
+		<!-- ABIN SUR -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman3</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman3">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Card image Abin Sur">
+						<div class="card-body">
+						 	<p class="card-title">Abin Sur</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abinsur">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman3">
+				<div class="modal fade" id="abinsur">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								3
+								<h3>Abin Sur</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Abin Sur" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>3</h6>
+										<p>Abin Sur</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>50</p>
+										<h6>Strength</h6>
+										<p>90</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>64</p>
+										<h6>Power</h6>
+										<p>99</p>
+										<h6>Combat</h6>
+										<p>65</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p> - </p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Lagzia</p>
+										<h6>Place Of Birth</h6>
+										<p>Ungara</p>
+										<h6>First Appearance</h6>
+										<p>Showcase #22 (October, 1959)</p>
+										<h6>Publisher</h6>
+										<p>DC Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Ungaran</p>
+										<h6>Height</h6>
+										<p>6'1 | 185 cm</p>
+										<h6>Weight</h6>
+										<p>200 lb | 90 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Green Lantern, former history professor</p>
+										<h6>Base</h6>
+										<p>Oa</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Green Lantern Corps, Black Lantern Corps</p>
+										<h6>Relatives</h6>
+										<p>Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+		<!-- ABOMINATION -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman4</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman4">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Card image Abomination">
+						<div class="card-body">
+						 	<p class="card-title">Abomination</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abomination">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman4">
+				<div class="modal fade" id="abomination">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								4
+								<h3>Abomination</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Abomination" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>4</h6>
+										<p>Abomination</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>63</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>90</p>
+										<h6>Power</h6>
+										<p>62</p>
+										<h6>Combat</h6>
+										<p>95</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Emil Blonsky</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Agent R-7, Ravager of Worlds</p>
+										<h6>Place Of Birth</h6>
+										<p>Zagreb, Yugoslavia</p>
+										<h6>First Appearance</h6>
+										<p>Tales to Astonish #90</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human / Radiation</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Green</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Ex-Spy</p>
+										<h6>Base</h6>
+										<p>Mobile</p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten</p>
+										<h6>Relatives</h6>
+										<p>Nadia Dornova Blonsky (wife, separated)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+		<!-- ABRAXAS -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman5</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman5">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Card image Abraxas">
+						<div class="card-body">
+						 	<p class="card-title">Abraxas</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abraxas">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman5">
+				<div class="modal fade" id="abraxas">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								5
+								<h3>Abe Sapien</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Abraxas" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>5</h6>
+										<p>Abraxas</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col col-6 col-sm-3 col-md-4 col-lg-2 col-xl-2 text-center">
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
 					<div class="card">
-						 <img class="card-img-top" src="img/batman.jpg" alt="Card image batman">
-						 <div class="card-body">
-						 	<h5 class="card-title">Batman6</h5>
-						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#batman6">Stats</a>
-						    <a href="#" class="btn btn-light" data-toggle="modal" data-target="#batman">Favourite</a>						    
-						  </div>
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Card image Absorbing Man">
+						<div class="card-body">
+						 	<p class="card-title">Absorbing Man</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#absorbingman">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
 					</div>
 				</div>
-				<div class="modal fade" id="batman6">
+				<div class="modal fade" id="absorbingman">
 					<div class="modal-dialog">
 						<div class="modal-content">
 							<div class="modal-header">
-								6
+								<h3>Absorbing Man</h3>
 								<button class="close" data-dismiss="modal"><span>&times;</span></button>
 							</div>
 							<div class="modal-body">
 								<div class="row" id="stats">
 									<div class="col">
-										<img class="img-fluid" src="img/batman.jpg" alt="Batman" />	
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Absorbing Man" />	
 									</div>
-									<div class="col" id="stats">
-										<h4>Name</h4>
-										<h4>Slug</h4>
-										<h4>Power Stats</h4>
-										<ul>
-											<li>Intelligence</li>
-											<li>Strength</li>
-											<li>Speed</li>
-											<li>Durability</li>
-											<li>Power</li>
-											<li>Combat</li>
-										</ul>
+									<div class="col" id="powerstats">
+										<h6>6</h6>
+										<p>Absorbing Man</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>25</p>
+										<h6>Durability</p>
+										<p>100</p>
+										<h6>Power</h6>
+										<p>98</p>
+										<h6>Combat</h6>
+										<p>64</p>
 									</div>
 								</div>
 								<div class="row" id="appearance">
-									<div class="col">
-										<h4>Appearance</h4>
-										<ul>
-											<li>Gender</li>
-											<li>Race</li>
-											<li>Height</li>
-											<li>Weight</li>
-											<li>Eye Color</li>
-											<li>Hair Color</li>
-										</ul>
-									</div>
 									<div class="col" id="biography">
-										<h4>Biography</h4>
-										<ul>
-											<li>Full Name</li>
-											<li>Alter Egos</li>
-											<li>Aliases</li>
-											<li>Place of Birth</li>
-											<li>Fisrt Appearance</li>
-											<li>Publisher</li>
-											<li>Alignment</li>
-										</ul>
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Carl Creel</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Greithoth, Crusher, Creel, Rocky Davis, Dynamite Davis, Lightningbolt, Prisoner #24957</p>
+										<h6>Place Of Birth</h6>
+										<p>New York City, New York</p>
+										<h6>First Appearance</h6>
+										<p>Daredevil #1 (April, 1964) (As Rocky Davis)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'4 | 193 cm</p>
+										<h6>Weight</h6>
+										<p>270 lb | 122 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
 									</div>
 								</div>
 								<div class="row" id="work">
 									<div class="col">
-										<h4>Work</h4>
-										<ul>
-											<li>Ocupation</li>
-											<li>Base</li>
-										</ul>
-
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Professional criminal; former professional boxer</p>
+										<h6>Base</h6>
+										<p> - </p>
 									</div>
 								</div>								
 								<div class="row" id="connections">
 									<div class="col">
-										<h4>Connections</h4>
-										<ul>
-											<li>Group Affiliation</li>
-											<li>Relatives</li>
-										</ul>
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Masters of Evil, Lethal Legion; formerly Worthy, Frightful Four: former agent of Loki and They Who Wield Power</p>
+										<h6>Relatives</h6>
+										<p>Mary MacPherran (Titania) (wife); Jerry Sledge (son); Rockwell "Rocky" Davis (Hi-Llite) (cousin)</p>
 									</div>
 								</div>
 							</div>
 							<div class="modal-footer">
-								1-3
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>												
 			</div>
+
+			<div class="row align-items-center feature" id="charactersd">
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="Card image A-Bomb">
+						<div class="card-body">
+						 	<p class="card-title">A-Bomb</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#a-bomb">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="a-bomb">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>A-Bomb</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/10060.jpg" alt="A-Bomb" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>1</h6>
+										<p>A-Bomb</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!-- ABE SAPIEN -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Card image Abe Sapien">
+						<div class="card-body">
+						 	<p class="card-title">Abe Sapien</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abesapien">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="abesapien">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>Abe Sapien</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/956.jpg" alt="Abe Sapien" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>2</h6>
+										<p>Abe Sapien</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>88</p>
+										<h6>Strength</h6>
+										<p>28</p>
+										<h6>Speed</h6>
+										<p>35</p>
+										<h6>Durability</p>
+										<p>65</p>
+										<h6>Power</h6>
+										<p>100</p>
+										<h6>Combat</h6>
+										<p>85</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Abraham Sapien</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Langdon Everett Caul, Abraham Sapien, Langdon Caul</p>
+										<h6>Place Of Birth</h6>
+										<p> - </p>
+										<h6>First Appearance</h6>
+										<p>Hellboy: Seed of Destruction (1993)</p>
+										<h6>Publisher</h6>
+										<p>Dark Horse Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Icthyo Sapien</p>
+										<h6>Height</h6>
+										<p>6'3 | 191 cm</p>
+										<h6>Weight</h6>
+										<p>145 lb | 65 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Paranormal Investigator</p>
+										<h6>Base</h6>
+										<p> - </p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Bureau for Paranormal Research and Defense</p>
+										<h6>Relatives</h6>
+										<p>Edith Howard (wife, deceased)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>	
+				
+		<!-- ABIN SUR -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Card image Abin Sur">
+						<div class="card-body">
+						 	<p class="card-title">Abin Sur</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abinsur">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="abinsur">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>Abin Sur</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1460.jpg" alt="Abin Sur" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>3</h6>
+										<p>Abin Sur</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>50</p>
+										<h6>Strength</h6>
+										<p>90</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>64</p>
+										<h6>Power</h6>
+										<p>99</p>
+										<h6>Combat</h6>
+										<p>65</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p> - </p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Lagzia</p>
+										<h6>Place Of Birth</h6>
+										<p>Ungara</p>
+										<h6>First Appearance</h6>
+										<p>Showcase #22 (October, 1959)</p>
+										<h6>Publisher</h6>
+										<p>DC Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Ungaran</p>
+										<h6>Height</h6>
+										<p>6'1 | 185 cm</p>
+										<h6>Weight</h6>
+										<p>200 lb | 90 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Green Lantern, former history professor</p>
+										<h6>Base</h6>
+										<p>Oa</p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Green Lantern Corps, Black Lantern Corps</p>
+										<h6>Relatives</h6>
+										<p>Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!-- ABOMINATION -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Card image Abomination">
+						<div class="card-body">
+						 	<p class="card-title">Abomination</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abomination">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="abomination">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>Abomination</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" alt="Abomination" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>4</h6>
+										<p>Abomination</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>63</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>53</p>
+										<h6>Durability</p>
+										<p>90</p>
+										<h6>Power</h6>
+										<p>62</p>
+										<h6>Combat</h6>
+										<p>95</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Emil Blonsky</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Agent R-7, Ravager of Worlds</p>
+										<h6>Place Of Birth</h6>
+										<p>Zagreb, Yugoslavia</p>
+										<h6>First Appearance</h6>
+										<p>Tales to Astonish #90</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human / Radiation</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Green</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Ex-Spy</p>
+										<h6>Base</h6>
+										<p>Mobile</p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten</p>
+										<h6>Relatives</h6>
+										<p>Nadia Dornova Blonsky (wife, separated)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!-- ABRAXAS -->
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Card image Abraxas">
+						<div class="card-body">
+						 	<p class="card-title">Abraxas</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#abraxas">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="abraxas">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>Abe Sapien</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/181.jpg" alt="Abraxas" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>5</h6>
+										<p>Abraxas</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>100</p>
+										<h6>Speed</h6>
+										<p>17</p>
+										<h6>Durability</p>
+										<p>80</p>
+										<h6>Power</h6>
+										<p>24</p>
+										<h6>Combat</h6>
+										<p>64</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Richard Milhouse Jones</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Rick Jones</p>
+										<h6>Place Of Birth</h6>
+										<p>Scarsdale, Arizona</p>
+										<h6>First Appearance</h6>
+										<p>Hulk Vol 2 #2 (April, 2008) (as A-Bomb)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Good</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'8 | 203 cm</p>
+										<h6>Weight</h6>
+										<p>980 lb | 441 kg</p>
+										<h6>Eye Color</h6>
+										<p>Yellow</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Musician, adventurer, author; formerly talk show host</p>
+										<h6>Base</h6>
+										<p> - </p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom</p>
+										<h6>Relatives</h6>
+										<p>Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
+					<div class="card">
+						<img class="card-img-top" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Card image Absorbing Man">
+						<div class="card-body">
+						 	<p class="card-title">Absorbing Man</p>
+						    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#absorbingman">Stats</a>    
+						</div>
+						<div>
+							<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+						</div>						
+					</div>
+				</div>
+				<div class="modal fade" id="absorbingman">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3>Absorbing Man</h3>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+							<div class="modal-body">
+								<div class="row" id="stats">
+									<div class="col">
+										<img class="img-fluid" src="https://www.superherodb.com/pictures2/portraits/10/100/1448.jpg" alt="Absorbing Man" />	
+									</div>
+									<div class="col" id="powerstats">
+										<h6>6</h6>
+										<p>Absorbing Man</p>
+										<h5>Power Stats</h5>
+										<h6>Intelligence</h6>
+										<p>38</p>
+										<h6>Strength</h6>
+										<p>80</p>
+										<h6>Speed</h6>
+										<p>25</p>
+										<h6>Durability</p>
+										<p>100</p>
+										<h6>Power</h6>
+										<p>98</p>
+										<h6>Combat</h6>
+										<p>64</p>
+									</div>
+								</div>
+								<div class="row" id="appearance">
+									<div class="col" id="biography">
+										<h5>Biography</h5>
+										<h6>Full Name</h6>
+										<p>Carl Creel</p>
+										<h6>Alter Egos</h6>
+										<p>No alter egos found.</p>
+										<h6>Aliases</h6>
+										<p>Greithoth, Crusher, Creel, Rocky Davis, Dynamite Davis, Lightningbolt, Prisoner #24957</p>
+										<h6>Place Of Birth</h6>
+										<p>New York City, New York</p>
+										<h6>First Appearance</h6>
+										<p>Daredevil #1 (April, 1964) (As Rocky Davis)</p>
+										<h6>Publisher</h6>
+										<p>Marvel Comics</p>
+										<h6>Alignment</h6>
+										<p>Bad</p>
+									</div>
+									<div class="col">
+										<h5>Appearance</h5>
+										<h6>Gender</h6>
+										<p>Male</p>
+										<h6>Race</h6>
+										<p>Human</p>
+										<h6>Height</h6>
+										<p>6'4 | 193 cm</p>
+										<h6>Weight</h6>
+										<p>270 lb | 122 kg</p>
+										<h6>Eye Color</h6>
+										<p>Blue</p>
+										<h6>Hair Color</h6>
+										<p>No Hair</p>
+									</div>
+								</div>
+								<div class="row" id="work">
+									<div class="col">
+										<h5>Work</h5>
+										<h6>Occupation</h6>
+										<p>Professional criminal; former professional boxer</p>
+										<h6>Base</h6>
+										<p> - </p>
+									</div>
+								</div>								
+								<div class="row" id="connections">
+									<div class="col">
+										<h5>Connections</h5>
+										<h6>Group Affiliation</h6>
+										<p>Masters of Evil, Lethal Legion; formerly Worthy, Frightful Four: former agent of Loki and They Who Wield Power</p>
+										<h6>Relatives</h6>
+										<p>Mary MacPherran (Titania) (wife); Jerry Sledge (son); Rockwell "Rocky" Davis (Hi-Llite) (cousin)</p>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button class="btn btn-light" data-dismiss="modal">Fechar</button>
+								<button class="btn btn-warning"><i class="fa fa-star"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>												
+			</div>
+
+		</div>
 
 		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 		<div id="footer">
 			<div class="container text-center">
-				<p>Projeto Acadêmico - Processo Seletivo Dev-Front Stone Age</p>
+				<h5>Processo Seletivo Dev-Front Stone Age</h5>
 			</div>
 		</div>
 
@@ -1662,3 +2573,5 @@
 		<script type="text/javascript" src="js/main.js"></script>		
 	</body>
 </html>
+
+
